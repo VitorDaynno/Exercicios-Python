@@ -19,6 +19,6 @@ if produto in estoque:
 
 print("Estoque: \n")
 for chave, dados in estoque.items():
-    print("Descrica: ",chave)
+    print("Descricao: ",chave)
     print("Quantidade: ", dados[0])
     print("Preco: %6.2f\n "%dados[1])
