@@ -1,6 +1,6 @@
-def valida_string(text, min, max):
-  text_lenght = len(text)
+def valida_string(texto, min, max):
+  tamanho_texto = len(texto)
 
-  return text_lenght > min and text_lenght < max
+  return tamanho_texto > min and tamanho_texto < max
 
 print(valida_string(input("Digite uma string: "), 5, 10))
